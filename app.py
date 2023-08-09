@@ -1,9 +1,5 @@
 import streamlit as st
-# import openai # not used
 import google.generativeai as palm
-
-# Set your OpenAI API key here
-# openai_api_key = "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" # not used, replaced by PaLM API
 
 # Set the background colors
 st.markdown(
