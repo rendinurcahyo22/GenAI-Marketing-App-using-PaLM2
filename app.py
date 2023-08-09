@@ -142,11 +142,3 @@ with col1:
             st.session_state.messages.append(msg)
             st.chat_message("assistant").write(msg["content"])
 
-            # Not used OpenAI, replaced by PaLM
-            # response = openai.ChatCompletion.create(
-            #     model="gpt-3.5-turbo",
-            #     messages=user_messages
-            # )
-            # msg = response.choices[0].message
-            # st.session_state.messages.append(msg)
-            # st.chat_message("assistant").write(msg["content"])
